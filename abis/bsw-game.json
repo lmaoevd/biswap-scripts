@@ -1,0 +1,25 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_gameIndex",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256[]",
+                "name": "_playersId",
+                "type": "uint256[]"
+            },
+            {
+                "internalType": "uint256",
+                "name": "contractVersion",
+                "type": "uint256"
+            }
+        ],
+        "name": "playGame",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]
