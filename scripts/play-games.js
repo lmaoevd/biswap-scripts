@@ -63,7 +63,7 @@ async function playGame(from, gameIndex, rounds) {
             let now = parseInt((new Date().valueOf() / 1000))
             // console.log(player.busyTo)
             // console.log(player.contractEndTimestamp)
-            if(!(player.busyTo < now && player.contractEndTimestamp > now)) {
+            if(!(player.busyTo < now && player.contractV2EndTimestamp > now)) {
                
                 go = false
                 console.log(`[` + rounds[i].join(',') +  `] 未能参加比赛`)
